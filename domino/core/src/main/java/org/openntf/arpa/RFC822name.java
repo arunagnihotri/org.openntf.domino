@@ -31,13 +31,13 @@ import org.openntf.domino.utils.Strings;
 /**
  * Carrier and parsing object for various RFC822 name parts.
  * 
- * @author Devin S. Olsonm (dolson@czarnowski.com)
+ * @author Devin S. Olson (dolson@czarnowski.com)
  * 
  * @see "RFC822: Standard for ARPA Internet Text Messages" http://www.w3.org/Protocols/rfc822/
  * 
  */
 @SuppressWarnings("javadoc")
-public class RFC822name extends HashMap<RFC822name.Key, String> implements Serializable {
+public class RFC822name extends HashMap<RFC822name.Key, String>implements Serializable {
 
 	@SuppressWarnings("unused")
 	private static final Logger log_ = Logger.getLogger(RFC822name.class.getName());
